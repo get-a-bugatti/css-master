@@ -1,0 +1,60 @@
+<style>
+    * {
+        margin: 0;
+    }
+
+    .first-name,
+    .last-name,
+    .email {
+        height: 35px;
+        border: 1.5px solid rgb(170, 170, 170);
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    .first-name,
+    .email,
+    .signup-btn {
+        margin-left: 10px;
+    }
+
+    .first-name,
+    .last-name {
+        width: 150px;
+        height: 35px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .email {
+        display: block;
+        width: 305px;
+    }
+
+    .signup-btn {
+        width: 305px;
+        height: 38px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(20, 140, 230);
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        transition: box-shadow 0.1s;
+    }
+
+    .signup-btn:hover {
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .signup-btn:active {
+        opacity: 0.7;
+    }
+</style>
+
+<input type="text" name="firstname" class="first-name" id="firstname" placeholder="First Name">
+<input type="text" name="lastname" class="last-name" id="lastname" placeholder="Last Name">
+<input type="text" name="email" id="email" class="email" placeholder="Email">
+<button class="signup-btn">Sign Up</button>

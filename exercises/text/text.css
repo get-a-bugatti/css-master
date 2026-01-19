@@ -1,0 +1,46 @@
+p {
+    font-family: Arial;
+    margin: 0px;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.video-author {
+    margin-top: 0px;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+}
+
+.shop-info {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    font-size: 14px;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.shop-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
