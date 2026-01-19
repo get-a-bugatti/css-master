@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="youtube.css" />
     <title>Youtube Clone</title>
   </head>
@@ -18,40 +27,57 @@
     </div>
 
     <div class="video-preview">
-      <img
-        src="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAjwFSooTrfWEB3VxSHWWFPUX4soQ"
-        alt="img"
-        class="video-thumbnail"
-      />
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <p class="video-creator">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+      <div class="video-thumbnail-grid">
+        <img
+          src="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAjwFSooTrfWEB3VxSHWWFPUX4soQ"
+          alt="img"
+          class="video-thumbnail"
+        />
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture-section">
+          <img
+            src="channel-pictures/channel-1.jpeg"
+            alt="channel picture"
+            class="channel-picture"
+          />
+        </div>
+
+        <div class="video-info-section">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-creator">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
 
     <div class="video-preview">
-      <img
-        src="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAjwFSooTrfWEB3VxSHWWFPUX4soQ"
-        alt="img"
-        class="video-thumbnail"
-      />
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <p class="video-creator">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
-    </div>
+      <div class="video-thumbnail-grid">
+        <img
+          src="https://i.ytimg.com/vi/mP0RAo9SKZk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-DDwq3h6640OSIYxP15Q0Ohecmw"
+          alt="img"
+          class="video-thumbnail"
+        />
+      </div>
 
-    <div class="video-preview">
-      <img
-        src="https://i.ytimg.com/vi/mP0RAo9SKZk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-DDwq3h6640OSIYxP15Q0Ohecmw"
-        alt="img"
-        class="video-thumbnail"
-      />
-      <p class="video-title">Try Not To Laugh Challenge #9</p>
-      <p class="video-creator">Markiplier</p>
-      <p class="video-stats">19M views &#183; 4 years ago</p>
+      <div class="video-info-grid">
+        <div class="channel-picture-section">
+          <img
+            src="channel-pictures/channel-2.jpeg"
+            alt="channel picture"
+            class="channel-picture"
+          />
+        </div>
+
+        <div class="video-info-section">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-creator">Markiplier</p>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
