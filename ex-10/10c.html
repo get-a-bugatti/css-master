@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+
+    <title>10C</title>
+    <style>
+      .follow-card {
+        width: 280px;
+        height: 430px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
+      .profpic-container {
+        width: 100%;
+        display: block;
+      }
+
+      .profile-picture {
+        width: 100%;
+      }
+
+      .mini-profimg-container,
+      .friend-mutual-suggestion {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .mini-profimg-container {
+        width: 35px;
+        margin-right: 6px;
+      }
+
+      .mini-profimg {
+        width: 100%;
+        border-radius: 17.5px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .profinfo-container {
+        padding: 10px 10px 0;
+      }
+
+      .profinfo-container-1 {
+        margin-bottom: 5px;
+      }
+
+      .friend-mutual-suggestion {
+        color: rgb(96, 96, 96);
+        font-size: 18px;
+      }
+
+      .addfriend-button {
+        color: white;
+        background-color: rgb(65, 148, 244);
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        height: 40px;
+        width: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="follow-card">
+      <div class="profpic-container">
+        <img
+          src="images/first-cat.png"
+          alt="profile picture"
+          class="profile-picture"
+        />
+      </div>
+      <div class="profinfo-container">
+        <div class="profinfo-container-1">
+          <p class="profile-name">Oliver</p>
+        </div>
+        <div class="profinfo-container-2">
+          <div class="mini-profimg-container">
+            <img src="images/second-cat.png" alt="image" class="mini-profimg" />
+          </div>
+          <p class="friend-mutual-suggestion">3 mutual friends</p>
+        </div>
+        <div class="profinfo-container-3">
+          <button class="addfriend-button">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
